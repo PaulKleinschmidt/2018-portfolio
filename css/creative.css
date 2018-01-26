@@ -19,7 +19,7 @@ hr.light {
 }
 
 a {
-  color: #6FCB9F;
+  color: #4775D1;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -66,7 +66,8 @@ section {
 
 .section-heading {
   margin-top: 0;
-  font-family: Arial;
+  /* font-family: Arial; */
+
 }
 
 ::-moz-selection {
@@ -126,7 +127,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #6FCB9F !important;
+  color: #63B68F !important;
   background-color: transparent;
 }
 
@@ -159,7 +160,6 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #6FCB9F;
@@ -194,7 +194,7 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  text-shadow: 2px 2px #000;
+  text-shadow: 1px 1px #000;
   font-size: 2rem;
 }
 

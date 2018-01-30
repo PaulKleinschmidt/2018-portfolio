@@ -194,13 +194,16 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  text-shadow: 1px 1px #000;
+  position: relative;
+  top: -30px;
   font-size: 2rem;
 }
 
 header.masthead p {
-  text-shadow: 1px #fff;
+  text-shadow: 1px #000;
   font-weight: 300;
+  position: relative;
+  top: -35px;
 }
 
 @media (min-width: 768px) {
@@ -375,4 +378,26 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.made-with {
+  font-style: italic;
+  color: #3B1261;
+}
+
+p {
+  color: #755990;
+}
+
+.project-story {
+  box-shadow: .3px .5px .8px #755990;
+  padding: 15px;
+  margin: 15px;
+  background-color: #e5e5e5;
+  font-family: 'Merriweather';
+  color: #2c2c2c;
 }
